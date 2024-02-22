@@ -1,0 +1,14 @@
+[Unit]
+Description=Adeept Robotic Arm
+After=multi-user.target
+
+[Service]
+Type=idle
+User=root
+ExecStart=<PLACEHOLDER>
+
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
