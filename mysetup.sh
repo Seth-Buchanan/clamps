@@ -39,7 +39,7 @@ systemctl enable clamps.service
 
 cat <<EOF
 
-Done!
+========================= Done! =========================
 
 The program has been installed to your Raspberry Pi. It can now
 be restarted to enable the i2c drivers for connecting to the HAT.
